@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/grindhive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grind timestamps and hive durations for scripts and CI receipts.",
+  "bin": {
+    "grindhive": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/grindhive.git"
+  },
+  "homepage": "https://theworker02.github.io/grindhive/",
+  "keywords": [
+    "grind",
+    "hive",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
